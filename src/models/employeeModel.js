@@ -48,7 +48,7 @@ const employeeSchema = new Schema(
     },
     role: {
       type: String,
-      enum: ["superAdmin", "admin", "employee"], // Optional: restrict roles
+      enum: ["superAdmin", "admin", "Employee"], // Optional: restrict roles
       default: "employee",
     },
     officialNo: {
